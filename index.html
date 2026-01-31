@@ -86,29 +86,12 @@ Website: https://www.heeact.edu.tw
       box-sizing: border-box;
     }
 
-    /* Safari/iOS 高度修復 */
-    html {
-      height: 100%;
-      height: -webkit-fill-available;
-    }
-
-    /* Safari/iOS 全局觸控修復 */
-    button, [onclick], [role="button"] {
-      -webkit-tap-highlight-color: rgba(0,0,0,0.1);
-      touch-action: manipulation;
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      user-select: none;
-    }
-
     body {
       font-family: var(--font-main);
       font-size: var(--font-size-base);
       /* 溫暖漸層背景 */
       background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 50%, #ffeaa7 100%);
       min-height: 100vh;
-      min-height: 100svh; /* Safari 手機支援 */
-      min-height: -webkit-fill-available; /* Safari 舊版回退 */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -122,8 +105,6 @@ Website: https://www.heeact.edu.tw
       left: 0;
       width: 100vw;
       height: 100vh;
-      height: 100svh; /* Safari 手機支援 */
-      height: -webkit-fill-available; /* Safari 舊版回退 */
       z-index: -1;
       pointer-events: none;
     }
@@ -571,10 +552,6 @@ Website: https://www.heeact.edu.tw
       line-height: 1.6;
       color: #4a3728; /* 明確設定深棕色文字，避免被覆蓋 */
       position: relative;
-      /* Safari 觸控修復 */
-      -webkit-tap-highlight-color: rgba(139, 90, 43, 0.2);
-      touch-action: manipulation;
-      -webkit-touch-callout: none;
     }
 
     .choice-btn:hover {
@@ -863,10 +840,6 @@ Website: https://www.heeact.edu.tw
       position: relative;
       z-index: 1;
       overflow: hidden;
-      /* Safari 觸控修復 */
-      -webkit-tap-highlight-color: rgba(0,0,0,0.1);
-      touch-action: manipulation;
-      -webkit-touch-callout: none;
     }
 
     .title-btn::after {
