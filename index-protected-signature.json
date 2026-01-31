@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "standard": [
+    "ISO/IEC 27001",
+    "ISO/IEC 19770-2",
+    "ISO 12931"
+  ],
+  "signature": {
+    "fingerprint": "HEEACT-ABE59A6662360C7B",
+    "verificationCode": "241F94449843",
+    "timestamp": "2026-01-31T09:17:13.716Z",
+    "hash": "abe59a6662360c7bbe0e0fe72c43a6a0"
+  },
+  "file": {
+    "input": "/tmp/evaluation-ethics-challenge/index.html",
+    "output": "/tmp/evaluation-ethics-challenge/index-protected.html",
+    "originalHash": "3623a3dac2ebfe13e95d84db3a7ad3c32c7573077801d09e464ba61ae16dc770",
+    "protectedHash": "cf88619f456fe2c004fa58a722542b25c844771bb9566cfe77a413fb6c375e05"
+  },
+  "copyright": {
+    "author": "HEEACT 財團法人高等教育評鑑中心基金會",
+    "authorEn": "Higher Education Evaluation and Accreditation Council of Taiwan",
+    "email": "heeact@heeact.edu.tw",
+    "website": "https://www.heeact.edu.tw",
+    "license": "Proprietary - All Rights Reserved"
+  },
+  "protection": {
+    "metaTags": true,
+    "zeroWidthWatermark": true,
+    "hiddenDOM": true,
+    "jsProtection": true,
+    "legalNotice": true
+  }
+}
