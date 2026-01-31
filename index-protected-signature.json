@@ -6,16 +6,16 @@
     "ISO 12931"
   ],
   "signature": {
-    "fingerprint": "HEEACT-65117F43EA4139FE",
-    "verificationCode": "28A97B1030F4",
-    "timestamp": "2026-01-31T10:16:25.140Z",
-    "hash": "65117f43ea4139fe61c3307b9f1e2572"
+    "fingerprint": "HEEACT-F082C1276188CE74",
+    "verificationCode": "8FA63FA466B2",
+    "timestamp": "2026-01-31T10:36:58.946Z",
+    "hash": "f082c1276188ce74abd794db3371c31f"
   },
   "file": {
-    "input": "/tmp/evaluation-ethics-challenge/index.html",
+    "input": "/tmp/evaluation-ethics-challenge/index-original.html",
     "output": "/tmp/evaluation-ethics-challenge/index-protected.html",
-    "originalHash": "b3d06ff39424fb88eaa8a49edc606551b30d5910c3b624198d210dca15428e45",
-    "protectedHash": "5c43511a04bbec022d0bef946f35b1aafef6ad32a25c55bb87cada2820bd95b2"
+    "originalHash": "4dc2ee8b6b5daa504e1fbad7a0227971aa8402d80ea425c3eb33facd3afc68d2",
+    "protectedHash": "15a32533182ca54c47329d04ea0043bcc37ee070ac8e8501f027092b2e3eb4a0"
   },
   "copyright": {
     "author": "HEEACT 財團法人高等教育評鑑中心基金會",
